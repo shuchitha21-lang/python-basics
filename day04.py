@@ -7,3 +7,11 @@ elif marks>=50:
     print("Grade C")
 else:
     print("Grade D")       
+# Simple BMI Checker
+weight=int(input("Enter your weight:"))
+if weight>=25:
+    print("Overweight")
+elif weight>=18:
+    print("Normal")
+else:
+    print("UnderWeight")
